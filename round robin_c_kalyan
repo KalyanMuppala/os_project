@@ -201,7 +201,7 @@ for(i=0;i<n;i++)
 cout<<"\t\tP"<<i+1<<"\t\t\t"<<new_arr[i]<<"\t\t"<<new_b_t[i]<<"\t\t\t"<<comp[i]<<"\t\t\t"<<w_t[i]<<"\t\t\t\t"<<tat[i]<<"\n";
 }
 cout<<"Gantt Chart: \n";
-int max_com=comp[i];
+int max_com=comp[0];
 for(i=0;i<n;i++)
 {
 if(comp[i]>max_com)
